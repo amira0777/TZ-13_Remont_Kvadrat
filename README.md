@@ -3,7 +3,7 @@
 | Сайт на Vercel | [remont-kvadrat.vercel.app](https://remont-kvadrat.vercel.app) |
 | Проект на GitHub | [Репозиторий amira0777](https://github.com/amira0777/TZ-13_Remont_Kvadrat) · [PR №1 открыт](https://github.com/amira0777/TZ-13_Remont_Kvadrat/pull/1) |
 | Таблица Kvadrat — Leads | Настройка Apps Script выполнена; форма подключена к веб-приёмнику |
-| Ресурс GA4 «КВАДРАТ — сайт» | Ожидает настройки в Google |
+| GA4 | Measurement ID G-Q7HG6F0JEZ подключён на 10 страницах |
 | Дашборд Yandex DataLens | Ожидает входа в DataLens |
 | Instagram, ВКонтакте, Telegram и YouTube | Черновики готовы; страницы и публикации не созданы |
 | Reel с ответами ManyChat | Черновики ветвей готовы; Instagram и ManyChat не подключены |
@@ -40,7 +40,7 @@
 
 ## Внешние подключения
 
-Секреты и персональные данные не хранятся в репозитории. Проверьте и объедините [PR №1](https://github.com/amira0777/TZ-13_Remont_Kvadrat/pull/1) в целевой репозиторий. Сайт опубликован на [remont-kvadrat.vercel.app](https://remont-kvadrat.vercel.app), форма подключена к веб-приёмнику Apps Script. Для GA4 задайте настоящий Measurement ID в теге каждой HTML-страницы.
+Секреты и персональные данные не хранятся в репозитории. Проверьте и объедините [PR №1](https://github.com/amira0777/TZ-13_Remont_Kvadrat/pull/1) в целевой репозиторий. Сайт опубликован на [remont-kvadrat.vercel.app](https://remont-kvadrat.vercel.app), форма подключена к веб-приёмнику Apps Script. GA4 Measurement ID `G-Q7HG6F0JEZ` установлен во всех HTML-страницах.
 
 Форма отправляет данные в настроенный Apps Script. Это учебная демонстрация — используйте только синтетические тестовые данные, не реальные контакты. Снимки GA4, ManyChat и DataLens добавляются в screens/ после настройки этих сервисов.
 
