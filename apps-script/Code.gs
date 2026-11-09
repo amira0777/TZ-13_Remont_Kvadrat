@@ -211,12 +211,18 @@ function setupUtmSheet_(sheet, configuredBaseUrl) {
     return ['=IF($N$2="","",$N$2&"/"&REGEXREPLACE(H' + row + ',"#.*$","")&"?utm_source="&ENCODEURL(D' + row + ')&"&utm_medium="&ENCODEURL(E' + row + ')&"&utm_campaign="&ENCODEURL(F' + row + ')&"&utm_content="&ENCODEURL(G' + row + ')&IFERROR("#"&REGEXEXTRACT(H' + row + ',"#(.*)$"),""))'];
   });
   sheet.getRange(2, 9, formulas.length, 1).setFormulas(formulas);
+  var shortFormulas = UTM_RECORDS.map(function(record, index) {
+    var row = index + 2;
+    return ['=IF($N$2="","",$N$2&"/u/"&LOWER(A' + row + '))'];
+  });
+  sheet.getRange(2, 10, shortFormulas.length, 1).setFormulas(shortFormulas);
   sheet.setColumnWidths(1, UTM_HEADERS.length, 190);
   sheet.setColumnWidth(1, 90);
   sheet.setColumnWidth(2, 130);
   sheet.setColumnWidth(3, 250);
   sheet.setColumnWidth(8, 200);
   sheet.setColumnWidth(9, 520);
+  sheet.setColumnWidth(10, 360);
   sheet.setColumnWidth(14, 260);
 }
 

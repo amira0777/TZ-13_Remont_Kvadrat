@@ -7,7 +7,7 @@
 | Дашборд Yandex DataLens | [Подготовлена схема](docs/datalens.md); для сборки нужны вход в DataLens и фактические выгрузки GA4 |
 | Instagram, ВКонтакте, Telegram и YouTube | Черновики готовы; страницы и публикации не созданы |
 | Reel с ответами ManyChat | Черновики ветвей готовы; Instagram и ManyChat не подключены |
-| UTM-реестр | [docs/utm.csv](docs/utm.csv) |
+| UTM-реестр и короткие ссылки | [docs/utm.csv](docs/utm.csv); ссылки `/u/u-01`–`/u/u-12` настроены на сайте |
 | Афиша и QR U-12 | [docs/afisha.pdf](docs/afisha.pdf), [docs/qr-u-12.png](docs/qr-u-12.png) |
 | События GA4 | [docs/events.md](docs/events.md) |
 | Аналитическая записка | [docs/report.md](docs/report.md), шаблон без неподтверждённых чисел |
