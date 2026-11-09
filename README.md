@@ -2,7 +2,7 @@
 |---|---|
 | Сайт на Vercel | [remont-kvadrat.vercel.app](https://remont-kvadrat.vercel.app) |
 | Проект на GitHub | [Репозиторий amira0777](https://github.com/amira0777/TZ-13_Remont_Kvadrat) · [PR №1 открыт](https://github.com/amira0777/TZ-13_Remont_Kvadrat/pull/1) |
-| Таблица Kvadrat — Leads | Ожидает включения Google Apps Script API |
+| Таблица Kvadrat — Leads | Настройка Apps Script выполнена; форма подключена к веб-приёмнику |
 | Ресурс GA4 «КВАДРАТ — сайт» | Ожидает настройки в Google |
 | Дашборд Yandex DataLens | Ожидает входа в DataLens |
 | Instagram, ВКонтакте, Telegram и YouTube | Черновики готовы; страницы и публикации не созданы |
@@ -40,9 +40,9 @@
 
 ## Внешние подключения
 
-Секреты и персональные данные не хранятся в репозитории. Проверьте и объедините [PR №1](https://github.com/amira0777/TZ-13_Remont_Kvadrat/pull/1) в целевой репозиторий. Сайт опубликован на [remont-kvadrat.vercel.app](https://remont-kvadrat.vercel.app). Задайте настоящий GA4 Measurement ID в теге каждой HTML-страницы, запустите setupSpreadsheet() в apps-script/Code.gs, настройте адрес приёмника на форме и укажите Script Property SPREADSHEET_ID.
+Секреты и персональные данные не хранятся в репозитории. Проверьте и объедините [PR №1](https://github.com/amira0777/TZ-13_Remont_Kvadrat/pull/1) в целевой репозиторий. Сайт опубликован на [remont-kvadrat.vercel.app](https://remont-kvadrat.vercel.app), форма подключена к веб-приёмнику Apps Script. Для GA4 задайте настоящий Measurement ID в теге каждой HTML-страницы.
 
-Подключение формы намеренно отсутствует, пока не развёрнут и не проверен Apps Script. Снимки GA4, ManyChat и DataLens добавляются в screens/ после проверок в реальных сервисах.
+Форма отправляет данные в настроенный Apps Script. Это учебная демонстрация — используйте только синтетические тестовые данные, не реальные контакты. Снимки GA4, ManyChat и DataLens добавляются в screens/ после настройки этих сервисов.
 
-Пока не настроены: ресурсы Google ожидают включения Apps Script API и конфигурации GA4; социальные каналы, короткие ссылки и ManyChat не подключены. Аналитическая записка остаётся пустой до появления реальных данных.
+Пока не настроены: ресурс GA4, социальные каналы, короткие ссылки и ManyChat. Аналитическая записка остаётся пустой до появления реальных данных.
 Нейросеть использовалась для: структуры и текстов учебного сайта, кода и вспомогательных документов; источники фотографий указаны в docs/images.md.
