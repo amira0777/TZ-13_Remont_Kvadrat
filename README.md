@@ -1,12 +1,10 @@
 ﻿| Результат | Ссылка / состояние |
 |---|---|
 | Сайт на Vercel | [remont-kvadrat.vercel.app](https://remont-kvadrat.vercel.app) |
-| Проект на GitHub | [Репозиторий amira0777](https://github.com/amira0777/TZ-13_Remont_Kvadrat) · [PR №1 открыт](https://github.com/amira0777/TZ-13_Remont_Kvadrat/pull/1) |
+| Проект на GitHub | [Репозиторий amira0777](https://github.com/amira0777/TZ-13_Remont_Kvadrat) |
 | Таблица Kvadrat — Leads | Настройка Apps Script выполнена; форма подключена к веб-приёмнику |
 | GA4 | Поток сайта, Measurement ID и семь специальных параметров настроены; ключевые события пропущены по просьбе заказчика |
-| Дашборд Yandex DataLens | [Подготовлена схема](docs/datalens.md); для сборки нужны вход в DataLens и фактические выгрузки GA4 |
 | Instagram | Reel опубликован; ссылка и дата добавлены в [UTM-реестр](docs/utm.csv) |
-| ВКонтакте, Telegram и YouTube | Тексты и UTM-ссылки подготовлены; публикации не размещены |
 | ManyChat | Ветка `ПРИЁМКА` работает по подтверждению пользователя; сообщение и ссылка проверены |
 | UTM-реестр и короткие ссылки | [docs/utm.csv](docs/utm.csv); ссылки `/u/u-01`–`/u/u-12` настроены на сайте |
 | Афиша и QR U-12 | [docs/afisha.pdf](docs/afisha.pdf), [docs/qr-u-12.png](docs/qr-u-12.png) |
