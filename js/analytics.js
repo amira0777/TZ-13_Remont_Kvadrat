@@ -147,14 +147,15 @@
     if (target) trackClick(target);
 
     var link = event.target && event.target.closest ? event.target.closest('a[href]') : null;
-    if (!link || link.hasAttribute('data-event')) return;
+    if (!link) return;
     var href = link.getAttribute('href') || '';
-    if (/^tel:/i.test(href)) track('contact_click', { contact_type: 'phone' });
-    if (/^mailto:/i.test(href)) track('contact_click', { contact_type: 'email' });
     var messenger = link.getAttribute('data-messenger');
     if (!messenger && /(?:t\.me|telegram\.me)/i.test(href)) messenger = 'telegram';
     if (!messenger && /(?:wa\.me|whatsapp\.com)/i.test(href)) messenger = 'whatsapp';
     if (messenger) track('messenger_click', { messenger: messenger });
+    if (link.hasAttribute('data-event')) return;
+    if (/^tel:/i.test(href)) track('contact_click', { contact_type: 'phone' });
+    if (/^mailto:/i.test(href)) track('contact_click', { contact_type: 'email' });
 
     var network = link.getAttribute('data-network');
     if (network && (link.closest('footer') || /thanks\.html/i.test(window.location.pathname))) {
