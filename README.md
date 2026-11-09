@@ -3,7 +3,7 @@
 | Сайт на Vercel | [remont-kvadrat.vercel.app](https://remont-kvadrat.vercel.app) |
 | Проект на GitHub | [Репозиторий amira0777](https://github.com/amira0777/TZ-13_Remont_Kvadrat) · [PR №1 открыт](https://github.com/amira0777/TZ-13_Remont_Kvadrat/pull/1) |
 | Таблица Kvadrat — Leads | Настройка Apps Script выполнена; форма подключена к веб-приёмнику |
-| GA4 | Measurement ID G-Q7HG6F0JEZ подключён на 10 страницах |
+| GA4 | ID подключён; [настройка ключевых событий и параметров](docs/ga4-setup.md) ещё не завершена |
 | Дашборд Yandex DataLens | Ожидает входа в DataLens |
 | Instagram, ВКонтакте, Telegram и YouTube | Черновики готовы; страницы и публикации не созданы |
 | Reel с ответами ManyChat | Черновики ветвей готовы; Instagram и ManyChat не подключены |
