@@ -44,7 +44,7 @@ var UTM_RECORDS = [
   ['U-11', 'blogger', 'realtor_reel', 'demo_realtor_02_replace_with_real_handle', 'affiliate', 'estimate_nov_2026', 'reel_01', 'calculator.html'],
   ['U-12', 'banner', 'newbuild_qr_banner', 'banner_qr', 'qr', 'estimate_nov_2026', 'newbuild_banner', 'calculator.html']
 ];
-var DEFAULT_SITE_BASE_URL = 'https://<vercel-project>.vercel.app';
+var DEFAULT_SITE_BASE_URL = 'https://remont-kvadrat.vercel.app';
 
 /**
  * Creates the educational workbook on first run, or opens SPREADSHEET_ID,

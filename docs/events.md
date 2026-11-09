@@ -6,7 +6,7 @@ The specification defines 20 events: six automatic Enhanced Measurement events a
 
 | # | Event | Type | Trigger | Parameters (example values) | Source / status |
 |---:|---|---|---|---|---|
-| 1 | `page_view` | Automatic | A page is opened. | `page_location` = `https://<vercel-project>.vercel.app/index.html`; `page_title` = document title | GA4 Enhanced Measurement; stream configuration pending verification. |
+| 1 | `page_view` | Automatic | A page is opened. | `page_location` = `https://remont-kvadrat.vercel.app/index.html`; `page_title` = document title | GA4 Enhanced Measurement; stream configuration pending verification. |
 | 2 | `scroll` | Automatic | The visitor scrolls to 90% of a page. | `percent_scrolled` = `90` | GA4 Enhanced Measurement; stream configuration pending verification. |
 | 3 | `click` | Automatic | The visitor follows a link to an external site. | `link_url` = destination URL; `outbound` = `true` | GA4 Enhanced Measurement; stream configuration pending verification. |
 | 4 | `file_download` | Automatic | The visitor downloads a PDF from the site. | `file_name` = downloaded PDF name; `file_extension` = `pdf` | GA4 Enhanced Measurement; stream configuration pending verification. |
