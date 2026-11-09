@@ -134,7 +134,12 @@
     var eventName = element.getAttribute('data-event');
     if (!eventName || ['promo_copy', 'portfolio_filter', 'stage_open'].indexOf(eventName) !== -1) return;
     if (eventName === 'repair_type_select' && /^(SELECT|INPUT)$/.test(element.tagName)) return;
-    track(eventName, valuesFromElement(element));
+    var parameters = valuesFromElement(element);
+    if (eventName === 'project_view' && !parameters.repair_type) {
+      var project = element.closest('[data-project-card]');
+      if (project) parameters.repair_type = project.getAttribute('data-repair-type') || '';
+    }
+    track(eventName, parameters);
   }
 
   document.addEventListener('click', function (event) {
@@ -168,7 +173,9 @@
     if (eventName === 'repair_type_select') {
       var typeControl = control;
       if (typeControl.type === 'radio' && !typeControl.checked) return;
-      track(eventName, valuesFromElement(control));
+      var typeParameters = valuesFromElement(control);
+      if (!typeParameters.repair_type && control.value) typeParameters.repair_type = control.value;
+      track(eventName, typeParameters);
     } else if (eventName === 'portfolio_filter') {
       var parameters = valuesFromElement(control);
       if (!parameters.object_type && control.value) parameters.object_type = control.value;

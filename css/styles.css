@@ -195,6 +195,10 @@ article, .card, [data-card], [data-project-card] {
   background: var(--color-white);
   box-shadow: var(--shadow-card);
 }
+.video-card { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(250px, .8fr); align-items: center; gap: clamp(1.25rem, 3vw, 2rem); padding: 0; overflow: hidden; }
+.demo-video { width: 100%; aspect-ratio: 16 / 9; background: var(--color-ink); object-fit: cover; }
+.video-content { padding: clamp(1.15rem, 2.4vw, 1.7rem); }
+.video-content > :last-child { margin-bottom: 0; }
 article > :last-child, .card > :last-child { margin-bottom: 0; }
 .service-card, .project-card, .stage-card, .estimate-card { min-width: 0; padding: clamp(1.15rem, 2.4vw, 1.7rem); border: 1px solid var(--color-border); border-radius: var(--radius-card); background: var(--color-white); box-shadow: var(--shadow-card); }
 .card-body > :last-child, .service-card > :last-child, .project-card > :last-child, .stage-card > :last-child { margin-bottom: 0; }
@@ -301,6 +305,7 @@ dialog::backdrop { background: rgb(34 37 42 / 70%); }
   body > header nav a, .site-nav a { flex: 0 0 auto; font-size: .82rem; }
   main { padding-top: 2rem; }
   .grid, .card-grid, .service-grid, .project-grid, [data-card-grid], .gallery { grid-template-columns: 1fr; }
+  .video-card { grid-template-columns: 1fr; gap: 0; }
   .footer-grid { grid-template-columns: minmax(0, 1fr); }
   .calculator__summary, [data-calculator-summary] { grid-template-columns: 1fr; }
   .hero, [data-hero] { padding: 1.4rem; border-radius: 20px; }
