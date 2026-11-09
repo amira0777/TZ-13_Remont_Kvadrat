@@ -1,0 +1,65 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "redirects": [
+    {
+      "source": "/u/u-01",
+      "destination": "https://remont-kvadrat.vercel.app/index.html?utm_source=instagram&utm_medium=social&utm_campaign=estimate_nov_2026&utm_content=bio",
+      "permanent": false
+    },
+    {
+      "source": "/u/u-02",
+      "destination": "https://remont-kvadrat.vercel.app/checklist.html?utm_source=instagram&utm_medium=social&utm_campaign=estimate_nov_2026&utm_content=reel_timelapse_01",
+      "permanent": false
+    },
+    {
+      "source": "/u/u-03",
+      "destination": "https://remont-kvadrat.vercel.app/services.html?utm_source=instagram&utm_medium=social&utm_campaign=bathroom_nov_2026&utm_content=reel_timelapse_01_bath#bathroom",
+      "permanent": false
+    },
+    {
+      "source": "/u/u-04",
+      "destination": "https://remont-kvadrat.vercel.app/calculator.html?utm_source=instagram&utm_medium=social&utm_campaign=estimate_nov_2026&utm_content=stories_01",
+      "permanent": false
+    },
+    {
+      "source": "/u/u-05",
+      "destination": "https://remont-kvadrat.vercel.app/portfolio.html?utm_source=vk&utm_medium=social&utm_campaign=estimate_nov_2026&utm_content=post_01",
+      "permanent": false
+    },
+    {
+      "source": "/u/u-06",
+      "destination": "https://remont-kvadrat.vercel.app/calculator.html?utm_source=vk&utm_medium=social&utm_campaign=estimate_nov_2026&utm_content=newbuild_post_01",
+      "permanent": false
+    },
+    {
+      "source": "/u/u-07",
+      "destination": "https://remont-kvadrat.vercel.app/calculator.html?utm_source=telegram&utm_medium=social&utm_campaign=estimate_nov_2026&utm_content=post_01",
+      "permanent": false
+    },
+    {
+      "source": "/u/u-08",
+      "destination": "https://remont-kvadrat.vercel.app/index.html?utm_source=telegram&utm_medium=social&utm_campaign=estimate_nov_2026&utm_content=house_chat",
+      "permanent": false
+    },
+    {
+      "source": "/u/u-09",
+      "destination": "https://remont-kvadrat.vercel.app/portfolio.html?utm_source=youtube&utm_medium=social&utm_campaign=estimate_nov_2026&utm_content=video_2room",
+      "permanent": false
+    },
+    {
+      "source": "/u/u-10",
+      "destination": "https://remont-kvadrat.vercel.app/index.html?utm_source=demo_blogger_01_replace_with_real_handle&utm_medium=affiliate&utm_campaign=estimate_nov_2026&utm_content=story_01",
+      "permanent": false
+    },
+    {
+      "source": "/u/u-11",
+      "destination": "https://remont-kvadrat.vercel.app/calculator.html?utm_source=demo_realtor_02_replace_with_real_handle&utm_medium=affiliate&utm_campaign=estimate_nov_2026&utm_content=reel_01",
+      "permanent": false
+    },
+    {
+      "source": "/u/u-12",
+      "destination": "https://remont-kvadrat.vercel.app/calculator.html?utm_source=banner_qr&utm_medium=qr&utm_campaign=estimate_nov_2026&utm_content=newbuild_banner",
+      "permanent": false
+    }
+  ]
+}

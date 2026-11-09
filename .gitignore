@@ -1,0 +1,13 @@
+node_modules/
+.vercel/
+.vercel-deploy/
+.clasp.json
+.env
+.env.*
+!.env.example
+TZ-13_Remont_Kvadrat.pdf
+.superpowers/
+.playwright-cli/
+.playwright-mcp/
+docs/superpowers/
+.vercel
